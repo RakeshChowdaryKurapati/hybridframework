@@ -19,7 +19,7 @@ public class RetriveDataFromExcel {
 	public String[][] getData(Method m) throws EncryptedDocumentException, IOException {
 		String excelSheetName=m.getName();
 
-		File f=new File(System.getProperty("user.dir")+".//src/test/java/com/telus/TestData/Untitled spreadsheet.xlsx");
+		File f=new File(System.getProperty("user.dir")+".//HybridFramework/Testdata/datatest.xlsx");
 		FileInputStream fis=new FileInputStream(f);
 		Workbook wb=WorkbookFactory.create(fis);
 		Sheet sheetName=wb.getSheet(excelSheetName);

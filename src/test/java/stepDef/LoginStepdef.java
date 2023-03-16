@@ -1,4 +1,4 @@
-package testCases;
+package stepDef;
 
 import pages.ObjectManager;
 
